@@ -6,7 +6,7 @@ import { calculateTotals, getCartItems } from './features/cart/cartSlice';
 import { useEffect } from 'react';
 import Modal from './components/Modal';
 function App() {
-  const { cartItems, isLoading } = useSelector((store) => store.cart);
+  const { cartItems, isLoading } = useSelector((store) => store.cart1);
   const { isOpen } = useSelector((store) => store.modal);
   const dispatch = useDispatch();
 
