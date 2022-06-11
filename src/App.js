@@ -18,9 +18,9 @@ function App() {
   
   useEffect(() => {
     dispatch(getCartItems());
+    // eslint-disable-next-line
   }, []); 
-  
-  // eslint-disable-next-line
+
 
   if (isLoading) {
     return (
