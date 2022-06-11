@@ -12,8 +12,10 @@ function App() {
 
   useEffect(() => {
     dispatch(calculateTotals());
+    // eslint-disable-next-line
   }, [cartItems]);
-// eslint-disable-next-line
+
+  
   useEffect(() => {
     dispatch(getCartItems());
   }, []); 
